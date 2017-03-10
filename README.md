@@ -1,10 +1,16 @@
 # clojure-cep
 
-A Clojure library designed to ... well, that part is up to you.
+Clojure wrapper around the ViaCEP service
 
 ## Usage
 
-FIXME
+```clojure
+
+(viacep "85010220")
+
+=> {"cep" "85010-220", "uf" "PR", "bairro" "Centro", "gia" "", "complemento" "de 500/501 ao fim", "logradouro" "Rua Xavier da Silva", "localidade" "Guarapuava", "unidade" "", "ibge" "4109401"}
+
+```
 
 ## License
 
